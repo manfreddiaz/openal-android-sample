@@ -1,5 +1,5 @@
 # OpenAL for Android Sample
-At this point, it is hard to find some working examples of 3D audio/spatialization on the Android platform that could be easily prototyped. Hence, I shared this sam application showing 3D audio rendering, using the bit old [openAL4android](http://pielot.org/2011/11/openal4android-2/) library.
+At this point, it is hard to find some working examples of 3D audio/spatialization on the Android platform that could be easily prototyped. Hence, I shared this sample application showing 3D audio rendering, using the bit old [openAL4android](http://pielot.org/2011/11/openal4android-2/) library.
 
 Hope it helps!
   
