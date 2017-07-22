@@ -1,0 +1,164 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* jni.bat
+* makelibs.bat
+* openal/
+* openal/.DS_Store
+* openal/.gitignore
+* openal/Alc/
+* openal/Alc/ALc.c
+* openal/Alc/ALu.c
+* openal/Alc/alcConfig.c
+* openal/Alc/alcEcho.c
+* openal/Alc/alcModulator.c
+* openal/Alc/alcReverb.c
+* openal/Alc/alcRing.c
+* openal/Alc/alcThread.c
+* openal/Alc/alsa.c
+* openal/Alc/android.c
+* openal/Alc/bs2b.c
+* openal/Alc/dsound.c
+* openal/Alc/null.c
+* openal/Alc/oss.c
+* openal/Alc/portaudio.c
+* openal/Alc/pulseaudio.c
+* openal/Alc/solaris.c
+* openal/Alc/wave.c
+* openal/Alc/winmm.c
+* openal/CMakeLists.txt
+* openal/COPYING
+* openal/OpenAL32/
+* openal/OpenAL32/.DS_Store
+* openal/OpenAL32/Include/
+* openal/OpenAL32/Include/alAuxEffectSlot.h
+* openal/OpenAL32/Include/alBuffer.h
+* openal/OpenAL32/Include/alDatabuffer.h
+* openal/OpenAL32/Include/alEffect.h
+* openal/OpenAL32/Include/alError.h
+* openal/OpenAL32/Include/alFilter.h
+* openal/OpenAL32/Include/alListener.h
+* openal/OpenAL32/Include/alMain.h
+* openal/OpenAL32/Include/alSource.h
+* openal/OpenAL32/Include/alState.h
+* openal/OpenAL32/Include/alThunk.h
+* openal/OpenAL32/Include/alu.h
+* openal/OpenAL32/Include/bs2b.h
+* openal/OpenAL32/alAuxEffectSlot.c
+* openal/OpenAL32/alBuffer.c
+* openal/OpenAL32/alDatabuffer.c
+* openal/OpenAL32/alEffect.c
+* openal/OpenAL32/alError.c
+* openal/OpenAL32/alExtension.c
+* openal/OpenAL32/alFilter.c
+* openal/OpenAL32/alListener.c
+* openal/OpenAL32/alSource.c
+* openal/OpenAL32/alState.c
+* openal/OpenAL32/alThunk.c
+* openal/README
+* openal/README-ANDROID
+* openal/XCompile.txt
+* openal/alsoftrc.sample
+* openal/build/
+* openal/build/.empty
+* openal/cmake/
+* openal/cmake/CheckCCompilerFlag.cmake
+* openal/cmake/CheckSharedFunctionExists.c
+* openal/cmake/CheckSharedLibraryExists.cmake
+* openal/config.h.in
+* openal/examples/
+* openal/examples/openal-info.c
+* openal/include/
+* openal/include/AL/
+* openal/include/AL/al.h
+* openal/include/AL/alc.h
+* openal/include/AL/alext.h
+* openal/include/AL/efx-creative.h
+* openal/include/AL/efx.h
+* openal/include/config.h
+* openal/openal.pc.in
+* openal/tremolo/
+* openal/tremolo/CHANGELOG
+* openal/tremolo/COPYING
+* openal/tremolo/Makefile
+* openal/tremolo/Profile.txt
+* openal/tremolo/README
+* openal/tremolo/TODO
+* openal/tremolo/annotate.c
+* openal/tremolo/asm_arm.h
+* openal/tremolo/bibble.txt
+* openal/tremolo/bitwise.c
+* openal/tremolo/bitwiseARM.s
+* openal/tremolo/codebook.c
+* openal/tremolo/codebook.h
+* openal/tremolo/codec_internal.h
+* openal/tremolo/config_types.h
+* openal/tremolo/dpen.s
+* openal/tremolo/dsp.c
+* openal/tremolo/floor0.c
+* openal/tremolo/floor1.c
+* openal/tremolo/floor1ARM.s
+* openal/tremolo/floor1LARM.s
+* openal/tremolo/floor_lookup.c
+* openal/tremolo/framing.c
+* openal/tremolo/info.c
+* openal/tremolo/ivorbiscodec.h
+* openal/tremolo/ivorbisfile.h
+* openal/tremolo/ivorbisfile_example.c
+* openal/tremolo/lsp_lookup.h
+* openal/tremolo/mapping0.c
+* openal/tremolo/mdct.c
+* openal/tremolo/mdct.h
+* openal/tremolo/mdctARM.s
+* openal/tremolo/mdctLARM.s
+* openal/tremolo/mdct_lookup.h
+* openal/tremolo/misc.c
+* openal/tremolo/misc.h
+* openal/tremolo/ogg.h
+* openal/tremolo/os.h
+* openal/tremolo/os_types.h
+* openal/tremolo/profile.c
+* openal/tremolo/res012.c
+* openal/tremolo/speed.s
+* openal/tremolo/testtremor.c
+* openal/tremolo/vorbisfile.c
+* openal/tremolo/window_lookup.h
+* proguard.cfg
+* uninstall.bat
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => openAL4Android/src/main/AndroidManifest.xml
+* assets/ => openAL4Android/src/main/assets
+* jni/ => openAL4Android/src/main/jni/
+* libs/armeabi/libopenalwrapper.so => openAL4Android/src/main/jniLibs/armeabi/libopenalwrapper.so
+* res/ => openAL4Android/src/main/res/
+* src/ => openAL4Android/src/main/java/
+* src/.DS_Store => openAL4Android/src/main/resources/.DS_Store
+* src/org/.DS_Store => openAL4Android/src/main/resources/org/.DS_Store
+* src/org/pielot/.DS_Store => openAL4Android/src/main/resources/org/pielot/.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

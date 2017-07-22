@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">sample3daudio</string>
+    <string name="text_left">Left</string>
+    <string name="text_up">Far</string>
+    <string name="text_near">Near</string>
+    <string name="text_right">Right</string>
+</resources>
